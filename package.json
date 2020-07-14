@@ -20,9 +20,8 @@
   "dependencies": {
     "config": "^3.3.1",
     "newman": "^5.0.1",
-    "uuid": "^8.1.0",
-    "winston": "^3.3.3",
-    "winston-cloudwatch": "^2.3.2"
+    "newman-reporter-winston": "https://github.com/dazza-codes/newman-reporter-winston/",
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
     "prettier": "^2.0.5"

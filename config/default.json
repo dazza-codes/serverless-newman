@@ -1,6 +1,6 @@
 {
     "testEnvironmentVariables": {
-        "myEnvVar": "Test environment variable"
+        "myEnvVar": "test-environment-variable"
     },
     "logLevel": "info"
 }

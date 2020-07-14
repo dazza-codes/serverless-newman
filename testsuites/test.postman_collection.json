@@ -22,7 +22,7 @@
 							"",
 							"pm.test(\"Should return the value from environment testKey\", function () {",
 							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData.args.testKey).to.eql(\"Test environment variable\");",
+							"    pm.expect(jsonData.args.testKey).to.eql(\"test-environment-variable\");",
 							"});"
 						]
 					}

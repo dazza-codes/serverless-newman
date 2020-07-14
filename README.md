@@ -6,9 +6,10 @@ with an error if the test fails / does not complete.
 
 ## Installation
 
-First, install all node dependencies
+First, install all node dependencies into `layer/nodejs/node_modules`:
 
 ```sh
+# See also .yarnrc, it will create layer/nodejs/node_modules/*
 yarn install
 ```
 
@@ -65,3 +66,8 @@ Example of a lambda event containting environment variables for a test-run:
     }
 }
 ```
+
+## References
+
+- https://medium.com/@anjanava.biswas/nodejs-runtime-environment-with-aws-lambda-layers-f3914613e20e
+- https://medium.com/the-cloud-builders-guild/how-to-add-nodejs-library-dependencies-in-a-aws-lambda-layer-with-serverless-framework-d774cb867197
